@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.navbar- {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    padding: 50px;
+    z-index: 99;
+}
+.my-clas2{
+    display: none !important;
+}
+.mid-section {
+    top: 40%;
+    left: 20%;
+    position: absolute;
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+li {
+    list-style: none;
+    font-size: 15px;
+}
+.my-clas {
+    right: 10%;
+    top: 20%;
+    color: white;
+}
+.my-clas h2 {
+    position: absolute;
+    top: 20%;
+    text-align: end;
+    right: 60%;
+}
+.my-clas p {
+    position: absolute;
+    border-bottom: 1px solid #fde428;
+    top: 70%;
+}
+.risk{
+    width: 20%;
+    margin-top: 5rem;
+    
+}
+.div{
+    background-color: #fde428;
+    position: relative;
+    height: 530px;
+    width: 300px;
+}
+.img{
+    background-color: #a1a1a1;
+    position: absolute;
+    top: 20%;
+    right: -80px;
+    height: 320px;
+    width: 500px;
+}
+.second-section{
+    display: flex;
+    justify-content: space-around;
+}
+.global{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    height: 700px;
+}
+.text{
+    width: 20%;
+    padding-left: 50px;
+}
+.mid{
+    background-color: #002e5b;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact{
+    background-color: #fde428;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #002e5b;
+    font-weight: bold;
+    cursor: pointer;
+}
+.flex-text{
+    width: 20%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10%;
+    text-align: center;
+}
+.flex-div{
+    background-color: #69d2e7;
+    height: 200px;
+    width: 300px;
+    margin-left: 30px;
+}
+.div-flex{
+    display: flex;
+    justify-content: center;
+}
+.div-text{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.text-div{
+    display: flex;
+    justify-content: center;
+}
+.numbers{
+    background-color: #002e5b;
+    height: 360px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numbers h5 {
+    font-size: 50px;
+}
+.numbers div{
+    padding-left: 200px;
+    text-align: center;
+}
+.play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.video-section{
+    display: flex;
+    justify-content: space-around;
+}
+.lorem{
+    width: 100%;
+    background-color: #002e5b;
+    height: 500px;
+}
+.lorem-texts{
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #002e5b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 750px){
+    .navbar-{
+        display: none;
+    }
+    .my-clas2{
+        display: flex !important;
+        z-index: 99;
+    }
+}
